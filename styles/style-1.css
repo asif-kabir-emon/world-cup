@@ -146,6 +146,7 @@ main {
 .blog-icon > span {
   margin-left: 13px;
 }
+/* View All Button Style */
 .view-all {
   visibility: hidden;
   margin-top: 50px;
