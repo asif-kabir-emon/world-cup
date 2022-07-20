@@ -116,7 +116,7 @@ main {
 }
 .match > .match-flags {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   column-gap: 10px;
 }
 .match > h3 {
