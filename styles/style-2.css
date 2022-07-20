@@ -266,7 +266,7 @@ footer > hr {
     flex-wrap: wrap;
   }
 }
-@media screen and (min-width: 340px) and (max-width: 759px) {
+@media screen and (min-width: 310px) and (max-width: 759px) {
   .greatest-show {
     flex-direction: column;
     padding: 28px 36px 0 36px;
