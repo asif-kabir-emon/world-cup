@@ -6,6 +6,17 @@
   --black-color: #161616;
   --gray-color: #b9b9b9;
 }
+@keyframes image-grayscale {
+  0% {
+    filter: grayscale(0%);
+  }
+  50% {
+    filter: grayscale(50%);
+  }
+  100% {
+    filter: grayscale(100%);
+  }
+}
 body {
   width: 100%;
   margin: 0;
@@ -62,6 +73,9 @@ main {
   height: 100%;
   object-fit: cover;
   vertical-align: middle;
+}
+.greatest-show-banner > img:hover {
+  animation: image-grayscale 2s ease-out 0.2s infinite alternate;
 }
 /* Main Body Style */
 .main-body {
