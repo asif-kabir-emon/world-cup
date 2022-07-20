@@ -205,8 +205,12 @@ footer > hr {
 }
 /* Media Query */
 @media screen and (min-width: 1201px) and (max-width: 1600px) {
-  .matches {
-    grid-template-columns: repeat(2, 1FR);
+  .page-links {
+    width: 290px;
+  }
+  .match > .match-flags > img {
+    width: 35%;
+    object-fit: fill;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
